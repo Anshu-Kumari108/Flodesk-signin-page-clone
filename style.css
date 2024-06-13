@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.login-page{
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+}
+.login-page h1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.login-page h3{
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 25px;
+    color: #241A17;
+    text-align: center;
+}
+
+.google-signin-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid rgb(211, 205, 205);  
+    padding: 10px;
+    margin-block: 40px 30px;   
+}
+.google-logo-img{
+    width:20px;
+    height: 20px;
+}
+.signin-desc{
+    font-size: 15px;
+    padding-left: 20px;
+    color: black;
+}
+.border{
+    text-align: center;
+    margin-block: 30px;
+    color: rgb(211, 205, 205);
+    font-size: 15px !important;
+    display: flex; 
+    flex-direction: row;   
+}
+.border:before, .border:after{
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 1px solid #696868; 
+    margin: auto; 
+}
+.input-label{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.login-input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(211, 205, 205);
+    border-radius: 4px;
+}
+input:focus{
+    outline: black solid 0.1px;
+}
+.login-btn{
+    width: 100%;
+    margin-block: 20px ;
+    padding: 15px 30px;
+    border-style: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background-color: rgb(29, 28, 28);
+}
+.signup{
+    padding-block: 20px;
+    color: rgb(172, 168, 168);
+    text-align: center;
+}
+.signup a{
+    color: rgb(172, 168, 168);
+    line-height: 1.8rem;
+}
+.terms-policy {
+    padding-top: 40px;
+    color: rgb(172, 168, 168);
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+
